@@ -52,7 +52,7 @@ suite('Functional Tests', () => {
 				assert.equal(res.status, 200);
                 assert.equal(
                     res.body.error,
-					'No text to translate',
+					'Required field(s) missing',
 					"Response should return error message correctly"
 				);
 				done();
